@@ -6,8 +6,8 @@ public class MChocolate {
 		int m=s.nextInt();
 		int n=s.nextInt();
 		int piece=0;
-		piece=(m!=0&&n!=0)?m*n:0;
-		System.out.println("the piece are:"+(piece-1));
+		piece=(m!=0&&n!=0)?m*n-1:0;
+		System.out.println("the piece are:"+(piece));
 
 	}
 
